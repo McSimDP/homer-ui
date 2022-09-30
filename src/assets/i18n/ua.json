@@ -1,0 +1,850 @@
+{
+  "LINK": {
+    "test": "тест",
+    "sentences": {
+      "copy": "Скопійовано в буфер обміну",
+      "failedCopy": "Не вдалося скопіювати"
+    },
+"action": "Дія",
+    "total": "Усього",
+    "tab": "Вкладка",
+    "to": "до",
+    "data": "Дані",
+    "view": "Перегляд",
+    "copy": "Копіювати",
+    "sync": "Синхронізувати",
+    "reset": "Скинути",
+    "edit": "Редагувати",
+    "delete": "Видалити",
+    "settings": "Налаштування",
+    "title": "Назва",
+    "user": "Користувач",
+    "online": "Онлайн",
+    "offline": "Офлайн",
+    "localStorage": "Локальне сховище",
+    "status": "Стан",
+    "table": "Таблиця",
+    "tables": "Таблиці",
+    "tableName": "Назва таблиці",
+    "search": "Пошук",
+    "ipalias": "Псевдонім",
+    "callTerms": {
+      "callid": "Ідентифікатор виклику",
+      "caller": "Абонент",
+      "callee": "Викликаючий",
+      "Duration": "Тривалість",
+      "MOS": "MOS",
+      "Status": "Стан",
+      "source": "Джерело",
+      "src": "Джр",
+      "destination": "Призначення",
+      "dest": "Прз"
+    },
+    "preferenceTerms": {
+      "partition": "Розділ",
+      "param": "Параметр",
+      "data": "Дані",
+      "profile": "Профіль",
+      "alias": "Псевдонім",
+      "id": "ID",
+      "HEP": "HEP",
+      "agentsub": "AgentSub",
+      "authtoken": "Маркер автентифікації",
+      "hepsub": "HepSub",
+      "interception": "Перехоплення",
+      "ipalias": "Псевдонім IP",
+      "cidr": "CIDR"
+    },
+    "mapping": "Відображення",
+    "dashboard": "Інформаційна панель",
+    "dashboardTerms": {
+      "sharedBy": "Поділився"
+    },
+    "widget": "Віджет",
+    "grafana": "Графана",
+    "homer": "Гомер",
+    "words": {
+      "success": {
+        "successfully": "успішно",
+        "successful": "успішний"
+      },
+      "remove": {
+        "removed": "видалено",
+        "remove": "видалити"
+      },
+      "update": {
+        "updated": "оновлено",
+        "update": "оновити"
+      },
+      "reset": {
+        "reset": "скинути"
+      }
+    },
+    "buttons": {
+      "close": "Закрити",
+      "ok": "Добре",
+      "cancel": "Скасувати",
+      "save": "Зберегти",
+      "or": "АБО",
+      "and": "І",
+      "clear": "Очистити",
+      "search": "@LINK.search@",
+      "newTab": "Нова вкладка",
+      "newBrowserTab": "Нова вкладка браузера",
+      "widgetSettings": "Налаштування віджета",
+      "pressCtrlEnter": "Натисніть CTRL+ENTER для @LINK.search@",
+      "sync": "Синхронізувати",
+      "add": "Додати"
+    },
+    "widgets": {
+      "noData": "Немає даних"
+    },
+    "login": {
+      "username": "Ім'я користувача",
+      "password": "Пароль"
+    },
+    "database": {
+      "chartTitle": "Назва діаграми",
+      "chartType": "Тип діаграми",
+      "format": "Формат",
+      "panelDataSource": "Джерело даних панелі",
+      "database": "База даних",
+      "clickhouse": "Clickhouse",
+      "retention": "Політика збереження",
+      "tables": "@LINK.tables@",
+      "query": "Запит",
+      "number": "№",
+      "table": "Таблиця",
+      "fields": "Поля",
+      "timeColumn": "Стовпець часу",
+      "resolution": "Рішення",
+      "counter": "Лічильник",
+      "tag": "Тег",
+      "values": "Значення",
+      "limit": "Ліміт",
+      "variables": "Змінні:",
+      "apiQueryValue": "Значення запиту API",
+      "measurment": "Вимірювання",
+      "sum": "Сума"
+    }
+  },
+  "alert": {
+    "copyFullErrorMessage": "Копіювати повне повідомлення про помилку",
+    "hide": "Приховати",
+    "show": "Показати",
+    "fullNotificationMessage": "Повне сповіщення",
+    "closeNotification": "Закрити сповіщення"
+  },
+  "alertSetting": {
+    "requestType": "Тип запиту",
+    "comparisonLogic": "Логіка порівняння",
+    "postRequestJSON": "Опублікувати запит (об'єкт JSON)",
+    "alertMessage": "Попереджувальне повідомлення",
+    "alertURL": "URL-адреса сповіщення",
+    "addParam": "Додати параметр",
+    "key": "Ключ",
+    "comparisonOperator": "Оператор порівняння",
+    "expected": "Очікується",
+    "deleteParam": "Видалити параметр",
+    "successColor": "Колір успіху",
+    "customColor": "Власний колір",
+    "addToPalette": "Додати до палітри",
+    "failColor": "Невдалий колір",
+    "textColor": "Колір тексту",
+    "alertPopupDuration": "Тривалість спливаючого вікна сповіщення (у секундах)",
+    "audioURL": "URL аудіо",
+    "testAudio": "Тестувати аудіо",
+    "showResponse": "Показати відповідь"
+  },
+  "dateRangePicker": {
+    "setToNow": "Встановити зараз",
+    "displayedTimeZoneSelect": "Вибір відображеного часового поясу"
+  },
+  "transactionInfo": {
+    "totalAmountOfMessages": "Загальна кількість повідомлень",
+    "total": "@LINK.total@",
+    "transactionDuration": "Тривалість транзакції:",
+    "method": "Метод",
+    "count": "Порахувати",
+    "amountMessagesTransaction": "Кількість повідомлень у цій транзакції"
+  },
+  "login": {
+    "header": "Вхід у @LINK.homer@",
+    "username": "@LINK.login.username@",
+    "password": "@LINK.login.password@",
+    "authentication": "Автентифікація",
+    "authTypes": {
+      "internal": "Внутрішня",
+      "ldap": "LDAP"
+    },
+    "signInButton": "Вхід",
+    "error": {
+      "apiNotFound": {
+        "header": "API не знайдено",
+        "message": "Не вдалося зв'язатися з вашим сервером API. Будь ласка, перевірте свої налаштування."
+      }
+    },
+    "copyright": "© 2020-2021 QXIP BV, усі права захищено"
+  },
+  "validators": {
+    "required": "Обов'язково, не повинно бути порожнім",
+    "minNumber": "Мінімум має бути",
+    "maxNumber": "Максимум має бути",
+    "minChars": "Мінімум символів",
+    "maxChars": "Максимум символів",
+    "pattern": "Недійсні символи, слід використовувати",
+    "patternNumber": "Значення має бути числом",
+    "patternIP": "Недійсні символи, має бути дійсний IP",
+    "dashboardName": "Назва інформаційної панелі вже використовується, виберіть іншу",
+    "noWhiteSpace": "Пробіли заборонені"
+  },
+  "notifications": {
+    "success": {
+      "linkCopy": "Посилання @LINK.sentences.copy@",
+      "shareLinkCopy": "Поділитися посиланням @LINK.sentences.copy@",
+      "callidCopy": "@LINK.callTerms.callid@: {{callid}} @LINK.sentences.copy@",
+      "dashboardShared": "@LINK.dashboard@ спільний доступ",
+      "passwordChanged": "@LINK.login.password@ @LINK.words.success.successfully@ @LINK.words.update.updated@",
+      "tabRemoved": "@LINK.tab@ @LINK.words.success.successfully@ @LINK.words.remove.removed@",
+      "localStorageCleared": "@LINK.localStorage@ Очистити @LINK.words.success.successful@",
+      "dashboardReset": "@LINK.dashboard@ @LINK.words.reset.reset@ @LINK.words.success.successful@",
+      "mappingsReset": "@LINK.mapping@ @LINK.words.reset.reset@ @LINK.words.success.successful@",
+      "resync": "Повторна синхронізація була @LINK.words.success.successful@",
+      "fileUpload": "Файл завантажено @LINK.words.success.successfully@",
+      "cellCopy": "Вміст комірки @LINK.sentences.copy@",
+      "messageCopy": "Повідомлення @LINK.sentences.copy@",
+      "notificationCopy": "Сповіщення @LINK.sentences.copy@",
+      "preferenceAdd": "{{page}} @LINK.words.success.successfully@ додано",
+      "preferenceCopy": "{{page}} @LINK.words.success.successfully@ скопійовано",
+      "preferenceUpdate": "{{page}} @LINK.words.success.successfully@ оновлено"
+    },
+    "warning": {
+      "userChanged": "Вашого користувача оновлено, увійдіть знову.",
+      "textTooLong": "Цей текст задовгий і може знизити продуктивність слабших комп'ютерів, будь ласка, будьте обережні"
+    },
+    "error": {
+      "wrongOldPassword": "Ви ввели неправильний старий @LINK.login.password.toLowerCase()@",
+      "samePasswords": "Новий @LINK.login.password.toLowerCase()@ такий самий, як ваш попередній @LINK.login.password.toLowerCase()@. Введіть новий @LINK.login.password.toLowerCase()@ ",
+      "localStorageNotCleared": "@LINK.localStorage@ не очищено",
+      "dashboardReset": "@LINK.dashboard@ не був @LINK.words.reset.reset@",
+      "mappingsReset": "@LINK.mapping@ не був @LINK.words.reset.reset@",
+      "callIdCopy": "@LINK.callTerms.callid@ @LINK.sentences.failedCopy@",
+      "linkCopy": "Посилання @LINK.sentences.failedCopy@",
+      "shareLinkCopy": "Поділитися посиланням @LINK.sentences.failedCopy@",
+      "noInternetError": "Здається, виникла проблема з підключенням до Інтернету",
+      "invalidJWT": "Недійсний токен JWT, використовуйте свої облікові дані, щоб увійти знову",
+      "mappingIssue": "Не вдалося отримати правильне налаштування для цього зіставлення",
+      "invalidJSON": "Сервер повернув недійсну відповідь JSON.",
+      "preferenceAdd": "{{page}} не вдалося додати",
+      "preferenceCopy": "{{page}} @LINK.sentences.failedCopy@",
+      "preferenceUpdate": "{{page}} не вдалося оновити"
+    },
+    "notice": {
+      "resultContainerReset": "Поле контейнера результатів було @LINK.words.reset.reset@ до значення за замовчуванням"
+    }
+  },
+  "menu": {
+    "home": "Додому",
+    "settings": "Налаштування",
+    "selectDashboard": "Виберіть @LINK.dashboard@",
+    "dashboard": "@LINK.dashboard@:",
+    "createNewDashboard": "Створити нову @LINK.dashboard@",
+    "newDashboard": "Нова @LINK.dashboard@",
+    "filterDashboards": "Фільтр @LINK.dashboard@s...",
+    "sharedDashboards": "Спільні @LINK.dashboard@s",
+    "changeTimeRange": "Змінити діапазон часу",
+    "refreshResults": "Оновити результати",
+    "sharedBy": " @LINK.dashboardTerms.sharedBy@: ",
+    "changeRefreshRange": "Змінити діапазон оновлення",
+    "logout": "Вийти",
+    "profile": "Профіль"
+  },
+  "dashboard": {
+    "sharedBy": "@LINK.dashboardTerms.sharedBy@: ",
+    "sharedByYou": "@LINK.dashboardTerms.sharedBy@ ви",
+    "shareQR": "Поділитися QR-кодом посилання",
+    "isShared": {
+      "cantEdit": "Неможливо редагувати спільну @LINK.dashboard@",
+      "noPermissionUpdate": "Недостатньо прав для оновлення @LINK.dashboard@",
+      "noPermissionDelete": "Недостатньо прав для видалення @LINK.dashboard@",
+      "lock": "Заблокувати @LINK.dashboard@",
+      "unlock": "Розблокувати @LINK.dashboard@",
+      "addWidget": "Додати @LINK.widget@",
+      "dashSetting": "Налаштування @LINK.dashboard@",
+      "deleteDash": "Видалити @LINK.dashboard@"
+    },
+    "editDialog": {
+      "title": "Редагувати @LINK.dashboard@",
+      "dashboardSettingsSection": {
+        "title": "@LINK.dashboard@ Деталі",
+        "dashboardName": "Назва вашої @LINK.dashboard@",
+        "dashboardType": "Тип",
+        "dashboardTypes": {
+          "CUSTOM": "Настроюваний",
+          "FRAME": "Рамка",
+          "HOME": "Домівка",
+          "SEARCH": "Пошук",
+          "ALARM": "Тривога",
+          "GRAFANA": "Графана"
+        }
+      },
+      "dashboardGridConfigurations": {
+        "title": "Grid Configuration",
+        "columns": "Columns",
+        "rows": "Rows",
+        "gridTypeTitle": "Grid Type",
+        "gridTypes": {
+          "fitToScreen": "Fit to Screen",
+          "scrollVertical": "Scroll Vertical",
+          "scrollHorizontal": "Scroll Horizontal",
+          "fixed": "Fixed",
+          "verticalFixed": "Vertical Fixed",
+          "horizontalFixed": "Horizontal Fixed"
+        },
+        "pushing": "Pushing"
+      },
+      "widgetControl": {
+        "title": "Widgets Control",
+        "tileWidgets": "Auto-tile Widgets",
+        "deleteWidgets": "Delete all Widgets"
+      },
+      "grafanaControl": {
+        "title": "@LINK.grafana@ Settings",
+        "grafanaTimestamp": "Sync with @LINK.dashboard@",
+        "grafanaProxy": "Use @LINK.homer@ proxy for @LINK.grafana@ iFrame",
+        "hasVariables": "Show Dashboard Variables"
+      },
+      "export": "Export @LINK.dashboard@ Settings"
+    },
+    "addWidgetDialog": {
+      "title": "Add @LINK.widget@",
+      "categories": {
+        "custom": "Search Types",
+        "visualize": "Visualize",
+        "metrics": "Metrics",
+        "search": "Search",
+        "utils": "Utils"
+      }
+    },
+    "addWidgetText": {
+      "TDR Call Search": "Search for Call Transactions",
+      "SIP Call Search": "Search for SIP Call Messages",
+      "Loki Search": "Custom Loki Search",
+      "TDR Registration Search": "Custom TDR Registration Search",
+      "SIP Registration Search": "Search for SIP Registration Messages",
+      "SIP Messages Search": "Search for Non-Call SIP Messages",
+      "clock": "Display Time of Day",
+      "embed-content": "Display External Content in iFrame",
+      "embed-markdown": "Display Custom Markdown content",
+      "RESULT": "Display Search Results",
+      "display-results-chart": "Display Search Results in Chart Form",
+      "alert": "Alert When a Condition is Met",
+      "influxdbchart": "Display InfluxDB Metrics",
+      "clickhousechart": "Display Clickhouse Metrics",
+      "prometheuschart": "Display Prometheus Metrics",
+      "iframe": "Display Grafana Metrics",
+      "rsearch": "Search with LogQL",
+      "display-results": "Generic Protocol Search",
+      "smart-input": "Search with Selective Mapping",
+      "pcapUpload": "Upload a PCAP for Analysis"
+    },
+    "addWidgetTitle": {
+      "TDR Call Search": "TDR Call Search",
+      "SIP Call Search": "SIP Call Search",
+      "Loki Search": "Loki Search",
+      "TDR Registration Search": "TDR Registration Search",
+      "SIP Registration Search": "SIP Registration Search",
+      "SIP Messages Search": "SIP Messages Search",
+      "clock": "World Clock",
+      "embed-content": "Embed Content",
+      "embed-markdown": "Embed Markdown",
+      "RESULT": "Display Result",
+      "display-results-chart": "Display Results Chart",
+      "alert": "Alert",
+      "influxdbchart": "InfluxDB",
+      "clickhousechart": "Clickhouse",
+      "prometheuschart": "Prometheus",
+      "iframe": "Grafana",
+      "rsearch": "LOKI Search",
+      "display-results": "Proto Search",
+      "smart-input": "Smart Input Search",
+      "pcapUpload": "PCAP Uploader"
+    },
+    "addDashboardDialog": {
+      "title": "Add new @LINK.dashboard@",
+      "dashboardName": "Name your @LINK.dashboard@",
+      "type": "Type",
+      "url": "URL",
+      "param": "Param"
+    },
+    "deleteDialog": {
+      "title": "Are you sure?",
+      "warning": "You will not be able to recover this!",
+      "confirmation": "Yes, delete it!"
+    },
+    "widgetTab": {
+      "delete": "Delete @LINK.widget@-tab",
+      "add": "Add @LINK.widget@-tab"
+    },
+    "widget": {
+      "setting": "@LINK.widget@ Settings",
+      "delete": "Delete @LINK.widget@"
+    },
+    "isEmpty": "@LINK.dashboard@ is empty"
+  },
+  "cellTypes": {
+    "lastError": "Last Error",
+    "noDatabaseErrors": "No Database Errors"
+  },
+  "tabCallFlow": {
+      "item_was_filtered": "All items were filtered, check the filter settings."
+  },
+  "tabCallInfo": {
+    "session": "Session",
+    "callId": "@LINK.callTerms.callid@",
+    "copyCall": "Copy @LINK.callTerms.callid@",
+    "caller": "@LINK.callTerms.caller@",
+    "callee": "@LINK.callTerms.callee@",
+    "Duration": "@LINK.callTerms.Duration@",
+    "MOS": "@LINK.callTerms.MOS@",
+    "Status": "@LINK.callTerms.Status@",
+    "type": "type",
+    "duration": "@LINK.callTerms.Duration.toLowerCase()@",
+    "contact": "contact",
+    "from": "from",
+    "ruri": "ruri",
+    "srcIpPort": "src ip:port",
+    "dstIpPort": "dst ip:port",
+    "linkTo": "Link to",
+    "info": "Info",
+    "packetsTotalLost": "Packets: Total / Lost (%)",
+    "Jitter": "Jitter",
+    "packetLoss": "Packet Loss",
+    "totalBytes": "Total Bytes",
+    "totalPackets": "Total Packets",
+    "Name": "Name",
+    "PTRate": "PT / Rate",
+    "MEAN": "MEAN",
+    "MIN": "MIN",
+    "MAX": "MAX",
+    "Ok": "Ok",
+    "publicToPrivate": "Public to Private NAT Flow Warning",
+    "jitterWarning": "High Jitter Fluctuation",
+    "mosWarning": "Low MOS",
+    "noWarnings": "No Warnings",
+    "videoWarning": "Video",
+    "SSRCWarning": "SSRC Changes Detected",
+    "bigDownJumpWarning": "Sequence Big Jump Detected",
+    "outOfOfderWarning": "Out-of-Order packets",
+    "NAT": "NAT"
+  },
+  "tabDTMF": {
+    "callId": "@LINK.callTerms.callid@",
+    "callParty": "Call Party",
+    "report": "Report",
+    "codec": "Codec",
+    "payload": "Payload",
+    "sourceIpPort": "Source ip:port",
+    "destIpPort": "Dest ip:port",
+    "Event": "Event",
+    "Duration": "@LINK.callTerms.Duration@",
+    "Timestamp": "Timestamp",
+    "TSU": "TSU",
+    "Volume": "Volume"
+  },
+  "tabExport": {
+    "exportSessionData": "Export Session Data",
+    "exportPCAP": "Export PCAP",
+    "exportFlowAsPNG": "Export Flow as PNG",
+    "shareCloud": "Share Cloud",
+    "exportText": "Export TEXT",
+    "shareLink": "Share link",
+    "openShareLink": "Open Share Link",
+    "copyShareLink": "Copy Share Link",
+    "exportReport": "Export Report",
+    "exportSIPPScenario": "Export SIPP Scenario",
+    "timePCAPsule": "Time PCAPsule",
+    "IPSelection": "IP Selection"
+  },
+  "exportDialog": {
+    "exportGrid": "Export Grid",
+    "fileName": "File Name",
+    "exportOnly": "Export only selected Rows",
+    "formatDate": "Format Date",
+    "convertStatus": "Convert Status",
+    "CSV": "CSV",
+    "XLSX": "XLSX",
+    "pleaseMakeSearch": "Please make a @LINK.search@ to access export",
+    "Cancel": "Cancel",
+    "Export": "Export"
+  },
+  "searchGridCall": {
+    "pressCtrlEnter": "Press CTRL+ENTER to @LINK.search@",
+    "pleaseDoSearch": "Please do a <strong>@LINK.search@</strong> from a <strong>Smart Input @LINK.search@ @LINK.widget@</strong>",
+    "messageID": "Message ID",
+    "report": "Report",
+    "filterResults": "Filter Results",
+    "close": "Close",
+    "gridSettings": "Grid Settings",
+    "searchConfig": "@LINK.search@ Config",
+    "exportDataFromGrid": "Export Data from Grid",
+    "gridDataIntoChart": "Aggregate Grid Data into a Chart"
+  },
+  "transaction": {
+    "messages": {
+      "copyButton": "Copy message content"
+    }
+  },
+  "preference": {
+    "settings": "Settings",
+    "invalidJSON": "The Server returned an invalid JSON response.",
+    "filter": "Filter",
+    "roles": {
+      "admin": "admin",
+      "support": "support",
+      "user": "user"
+    },
+    "pages": {
+      "about": "ABOUT",
+      "api documentation": "API DOCUMENTATION",
+      "users": "USERS",
+      "user settings": "USER SETTINGS",
+      "ip alias": "IP ALIAS",
+      "advanced": "ADVANCED",
+      "mapping": "MAPPING",
+      "hepsub": "HEPSUB",
+      "auth token": "AUTH TOKEN",
+      "scripts": "SCRIPTS",
+      "interceptions": "INTERCEPTIONS",
+      "agentsub": "AGENTSUB",
+      "system overview": "SYSTEM OVERVIEW",
+      "reset": "RESET",
+      "admin": "Config Snapshots"
+    },
+    "mapping": {
+      "dialog": {
+        "mappingSettings": "@LINK.mapping@ Settings",
+        "settings": "Settings",
+        "defines": "Defines the Identifiier and profile of Protocol Data",
+        "hepAlias": "@LINK.preferenceTerms.HEP@ Alias",
+        "shouldNotBeEmpty": "Should not be empty",
+        "charactersMin": "Characters min",
+        "characterMax": "Characters max",
+        "ivalidCharacters": "Invalid Characters, should Use [A-Za-z0-9], '-' or '_'",
+        "hepId": "@LINK.preferenceTerms.HEP@ ID",
+        "profile": "Profile",
+        "retention": "Retention in Hours",
+        "tableName": "Table Name",
+        "applyTTL": "Apply TTL",
+        "correlationMapping": "Correlation",
+        "definesCross": "Defines any cross-protocol Correlation Mechanism",
+        "fieldsMapping": "Fields",
+        "definesSchema": "Defines Schema and @LINK.mapping@ for Protocol Fields",
+        "script": "Script",
+        "definesScript": "Defines current Profile Script",
+        "mainFields": "Main",
+        "user_mapping": "Custom",
+        "definesUserMapping": "Defines Custom Mapping"
+      }
+    },
+    "system-overview": {
+      "dialog": {
+        "title": "@LINK.homer@ Config Nodes synchronisation",
+        "warning": "You are about to sync Configs between two @LINK.homer@ nodes. Are you SURE?",
+        "destination": "@LINK.callTerms.destination@",
+        "source": "@LINK.callTerms.source@",
+        "tables": "Tables"
+      }
+    },
+    "api documentation": {
+        "description": "@LINK.homer@ API Documentation"
+    },
+    "advanced": {
+      "dialog": {
+        "title": "Advanced Settings",
+        "partition": "@LINK.preferenceTerms.partition@ ID",
+        "param": "@LINK.preferenceTerms.param@",
+        "category": "Category",
+        "data": "@LINK.preferenceTerms.data@"
+      }
+    },
+    "ipalias": {
+      "dialog": {
+        "title": "@LINK.ipalias@ Settings",
+        "description": "Define the alias setting",
+        "copy": "Copy",
+        "updatecopy": ": (Please change @LINK.ipalias@ Settings to save a Copy)",
+        "shardid": "Shard ID",
+        "cidrip": "@LINK.preferenceTerms.CIDR@ IP",
+        "cidrmask": "@LINK.preferenceTerms.CIDR@ Mask",
+        "port": "Port",
+        "type": "Type",
+        "aliasName": "@LINK.preferenceTerms.alias@ Name",
+        "group": "Group Name",
+        "server": "Server Type",
+        "captureID": "Capture ID",
+        "ipv6": "IPV6",
+        "fontColor": "Font Color",
+        "borderColor": "Border Color",
+        "backgroundColor": "Background Color",
+        "selectImage": "Select @LINK.preferenceTerms.alias@ Image",
+        "pasteImage": "Paste link to Image",
+        "extendedDescription": "Extended @LINK.preferenceTerms.CIDR@ JSON Object. Must at least contain the Alias field to provide Aliases!",
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "authtoken": {
+      "dialog": {
+        "title": "@LINK.preferenceTerms.authtoken@ Settings",
+        "name": "@LINK.preferenceTerms.authtoken@ Name",
+        "expire": "Expire Date",
+        "active": "Active"
+      },
+      "displayDialog": {
+        "title": "This is your Token",
+        "description": "Please add it to a http request as a Param of Header Auth-Token:"
+      }
+    },
+    "deleteDialog": {
+      "title": "{{message}} {{page}} data",
+      "warningTitle": "Are you sure?",
+      "warning": "You will not be able to recover this!"
+    },
+    "hepsub": {
+      "title": "@LINK.preferenceTerms.hepsub@ Settings",
+      "settings": {
+        "title": "@LINK.preferenceTerms.hepsub@ Settings",
+        "description": "Defines the Identifier, Format and Lifetime of Protocol Data",
+        "hepAlias": "@LINK.preferenceTerms.HEP@ Alias",
+        "hepId": "@LINK.preferenceTerms.HEP@ ID",
+        "profile": "Profile"
+      },
+      "mapping": {
+        "title": "@LINK.preferenceTerms.hepsub@ @LINK.mapping@",
+        "description": "Defines any cross-protocol Correlation Mechanism"
+      }
+    },
+    "interceptions": {
+      "title": "@LINK.preferenceTerms.interception@ Settings",
+      "callee": "@LINK.search@ @LINK.callTerms.callee@ Party",
+      "caller": "@LINK.search@ Calling Party",
+      "ip": "@LINK.search@ IP",
+      "liid": "LIID (Interception ID: 1 - 512)",
+      "partition": "@LINK.preferenceTerms.partition@ ID",
+      "startTime": "Start Time",
+      "stopTime": "Stop Time",
+      "description": "Description",
+      "reference": "Reference number"
+    },
+    "scripts": {
+      "dialog": {
+        "title": "Scripts",
+        "scriptSettings": "Script Settings",
+        "profile": "Profile",
+        "hepAlias": "@LINK.preferenceTerms.HEP@ Alias",
+        "hepId": "@LINK.preferenceTerms.HEP@ ID",
+        "type": "Type",
+        "partition": "@LINK.preferenceTerms.partition@ ID",
+        "jsScripts": "Javascript Scripts",
+        "jsScriptsDescription": "Add your custom Javascript Script here!"
+      }
+    },
+    "userSettings": {
+      "dialog": {
+        "title": "User Settings",
+        "userData": "User Data",
+        "username": "@LINK.login.username@",
+        "category": "Category",
+        "param": "Param",
+        "partition": "@LINK.preferenceTerms.partition@ ID",
+        "data": "Data",
+        "setting": "Settings"
+      }
+    },
+    "users": {
+      "dialog": {
+        "title": "{{username}} Settings",
+        "userCopy": ": (Please change User Settings to save a Copy)",
+        "username": "@LINK.login.username@",
+        "group": "Group",
+        "partition": "@LINK.preferenceTerms.partition@ ID",
+        "password": "@LINK.login.password@",
+        "confirm": "Confirm",
+        "personalInfo": "Personal Information",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "department": "Department",
+        "setting": "Setting",
+        "statistics": "Statistics",
+        "lastLogin": "Last Login:",
+        "lastPassword": "Last Password Change:"
+      }
+    },
+    "pageReset": {
+      "localStorageSetting": "Clear Local Storage Data and Settings",
+      "clearUserLocalData": "Clear User Local Data",
+      "clearAllLocalData": "Clear all Local Data",
+      "dashboardSettings": "Reset Dashboard Settings and Widgets",
+      "resetDashboard": "Reset Dashboard",
+      "mappings": "Mappings",
+      "resetMappings": "Reset Protocol and Field Mappings to Default State",
+      "resetMapping": "Reset Mapping"
+    },
+    "pageAdmin": {
+      "rtp_agent": "RTPAgent",
+      "make_rtp_agent_dump": "Dump Rtpagent Config",
+      "pic_server": "PicServer",
+      "make_pic_server_dump": "Dump Picserver Config",
+      "logs": "Logs",
+      "make_logs_dump": "Dump Logs Config",
+      "hepic_app": "@LINK.homer@ App",
+      "make_hepic_app_dump": "Dump HomerAPP Config",
+      "button_export": "Export",
+      "button_dump": "Dump"
+    }
+  },
+  "widgets": {
+    "aceEditor": {
+      "settings": {
+        "theme": "Theme"
+      }
+    },
+    "clickhouseChart": {
+      "settings": {
+        "chartTitle": "@LINK.database.chartTitle@",
+        "chartType": "@LINK.database.chartType@",
+        "format": "@LINK.database.format@",
+        "panelDataSource": "@LINK.database.panelDataSource@",
+        "clickhouse": "@LINK.database.clickhouse@",
+        "database": "@LINK.database.database@",
+        "tables": "@LINK.database.tables@",
+        "query": "@LINK.database.query@",
+        "number": "@LINK.database.number@",
+        "table": "@LINK.database.table@",
+        "fields": "@LINK.database.fields@",
+        "timeColumn": "@LINK.database.timeColumn@",
+        "resolution": "@LINK.database.resolution@",
+        "counter": "@LINK.database.counter@",
+        "tag": "@LINK.database.tag@",
+        "values": "@LINK.database.values@",
+        "limit": "@LINK.database.limit@",
+        "variables": "@LINK.database.variables@",
+        "apiQueryValue": "@LINK.database.apiQueryValue@",
+        "autoMode": "Auto Mode"
+      }
+    },
+    "clock": {
+      "settings": {
+        "timezone": "Timezone",
+        "clockType": "Clock type",
+        "timeFontSize": "Time Font Size",
+        "dateFontSize": "Date Font Size"
+      }
+    },
+    "alarmComponent": {
+      "errorMessageReset": "It seems that the Settings for this Widget got corrupted.",
+      "suggestionReset": "Using \"Fix\" button you can reset this Search Widget to one of Presets",
+      "choosePreset": "Choose Preset",
+      "errorMessageContact": "It seems that resetting the Widget didn't help",
+      "suggestionContact": "Please contact your support or delete this Widget if you know what you are doing",
+      "errorMessage": "It seems that the Settings are corrupted.",
+      "suggestion": "We recommend that you remove this Widget and recreate it."
+    },
+    "iframe": {
+      "settings": {
+        "link": "Link",
+        "description": "Description",
+        "refresh": "Refresh Event"
+      }
+    },
+    "grafana": {
+        "settings": {
+            "theme": "Theme: ",
+            "timeRange": "Time Range: ",
+            "from": "From: ",
+            "to": "To:",
+            "refresh": "Auto-Refresh: ",
+            "refreshDescription": "If Field is empty only Manual Refresh will updated the Data, otherwise Refresh occurs based on input value (2s, 5m, 10h, etc...)",
+            "documentation": "Grafana Timerange Docs",
+            "documentationLink": "https://grafana.com/docs/reference/timerange/",
+            "description": "Description",
+            "panel": "Panel",
+            "error": "{{error}}, please contact your admin to fix it",
+            "grafanaError": "Grafana returned error: {{error}}, please contact your admin to fix it",
+            "hasVariables": "Show Panel Variables"
+        }
+    },
+    "influxDBChart": {
+      "settings": {
+        "chartTitle": "@LINK.database.chartTitle@",
+        "chartType": "@LINK.database.chartType@",
+        "format": "@LINK.database.format@",
+        "panelDataSource": "@LINK.database.panelDataSource@",
+        "database": "@LINK.database.database@",
+        "retention": "@LINK.database.retention@",
+        "query": "@LINK.database.query@",
+        "number": "@LINK.database.number@",
+        "table": "@LINK.database.table@",
+        "fields": "@LINK.database.fields@",
+        "timeColumn": "@LINK.database.timeColumn@",
+        "resolution": "@LINK.database.resolution@",
+        "counter": "@LINK.database.counter@",
+        "tag": "@LINK.database.tag@",
+        "values": "@LINK.database.values@",
+        "limit": "@LINK.database.limit@",
+        "variables": "@LINK.database.variables@",
+        "apiQueryValue": "@LINK.database.apiQueryValue@",
+        "sum": "@LINK.database.sum@"
+      }
+    },
+    "pcapUploader": {
+      "widget": {
+        "file": "File: ",
+        "size": "Size: ",
+        "setDateTime": "Set date-time from Now"
+      }
+    },
+    "prometheusChart": {
+      "settings": {
+        "chartTitle": "@LINK.database.chartTitle@",
+        "chartType": "@LINK.database.chartType@",
+        "format": "@LINK.database.format@",
+        "panelDataSource": "@LINK.database.panelDataSource@",
+        "clickhouse": "@LINK.database.clickhouse",
+        "database": "@LINK.database.database@",
+        "retention": "@LINK.database.retention",
+        "query": "@LINK.database.query@",
+        "number": "@LINK.database.number@",
+        "table": "@LINK.database.table@",
+        "fields": "@LINK.database.fields@",
+        "timeColumn": "@LINK.database.timeColumn@",
+        "resolution": "@LINK.database.resolution@",
+        "counter": "@LINK.database.counter@",
+        "sum": "@LINK.database.sum@"
+      }
+    },
+    "protosearch": {
+      "settings": {
+        "title": "Panel title",
+        "columns": "Columns",
+        "mapping": "@LINK.mapping@"
+      },
+      "enterOrPickIP": "Enter {{item.selection}} or Pick List"
+    },
+    "resultWidget": {
+      "settings": {
+        "autoRefresh": "Auto Refresh after changing Time Range"
+      }
+    },
+    "smartInput": {
+      "settings": {
+        "title": "Panel title"
+      },
+      "widget": {
+        "ctrlEnter": "Press CTRL+ENTER to @LINK.search@"
+      }
+    }
+  }
+}
